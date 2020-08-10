@@ -1,0 +1,41 @@
+.container{
+  margin: 40px 0;
+}
+
+.card{
+  margin: 0 4% !important;
+  background-color: grey !important;
+}
+
+.active{
+  margin: 40px auto 0;
+  background-color: grey;
+  text-align: center;
+  font-size: 3vw;
+  padding: 0.7vw;
+  border-radius: 5px;
+  border-bottom: 7px solid yellow;
+  width: 91%;
+}
+
+@media (max-width: 770px){
+  .card{
+    margin-bottom: 20px !important;
+  }
+
+  .active{
+    font-size: 5.5vw;
+  }
+}
+
+.infected{
+  border-bottom: 10px solid rgba(0, 0, 255, 5.0);
+}
+
+.recovered{
+  border-bottom: 10px solid rgba(0, 255, 0, 5.0);
+}
+
+.deaths{
+  border-bottom: 10px solid rgba(255, 0, 0, 5.0);
+}
